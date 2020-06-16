@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cmp_db - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Graham\LOCALS~1\Temp\RSP233.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/cmp_db.pdb" /debug /machine:I386 /out:"Debug/cmp_db.exe" /pdbtype:sept 
+\meriden\MeridenUtils\ck_utils\Debug\ck_utils.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\Graham\LOCALS~1\Temp\RSP233.tmp"
+<h3>Output Window</h3>
+Linking...
+LINK : warning LNK4001: no object files specified; libraries used
+LINK : error LNK2001: unresolved external symbol _mainCRTStartup
+Debug/cmp_db.exe : fatal error LNK1120: 1 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+cmp_db.exe - 2 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

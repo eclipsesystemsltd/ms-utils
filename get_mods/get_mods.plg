@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: get_mods - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Graham\LOCALS~1\Temp\RSPEC.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/get_mods.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\meriden\MeridenUtils\get_mods\get_mods.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Graham\LOCALS~1\Temp\RSPEC.tmp" 
+Creating temporary file "C:\DOCUME~1\Graham\LOCALS~1\Temp\RSPED.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/get_mods.pdb" /debug /machine:I386 /out:"Debug/get_mods.exe" /pdbtype:sept 
+.\Debug\get_mods.obj
+\meriden\MeridenUtils\ck_utils\Debug\ck_utils.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\Graham\LOCALS~1\Temp\RSPED.tmp"
+<h3>Output Window</h3>
+Compiling...
+get_mods.c
+d:\meriden\meridenutils\get_mods\get_mods.c(186) : warning C4047: '=' : 'char *' differs in levels of indirection from 'char (*)[100]'
+d:\meriden\meridenutils\get_mods\get_mods.c(273) : warning C4047: '=' : 'char *' differs in levels of indirection from 'char (*)[100]'
+d:\meriden\meridenutils\get_mods\get_mods.c(277) : warning C4047: '=' : 'char *' differs in levels of indirection from 'char (*)[100]'
+d:\meriden\meridenutils\get_mods\get_mods.c(353) : warning C4047: 'function' : 'char (*)[100]' differs in levels of indirection from 'char *'
+d:\meriden\meridenutils\get_mods\get_mods.c(353) : warning C4024: 'save_temp_file' : different types for formal and actual parameter 2
+Linking...
+
+
+
+<h3>Results</h3>
+get_mods.exe - 0 error(s), 5 warning(s)
+</pre>
+</body>
+</html>

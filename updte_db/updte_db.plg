@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: updte_db - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Graham\LOCALS~1\Temp\RSP1AC.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/updte_db.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\meriden\MeridenUtils\updte_db\updte_db.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Graham\LOCALS~1\Temp\RSP1AC.tmp" 
+Creating temporary file "C:\DOCUME~1\Graham\LOCALS~1\Temp\RSP1AD.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/updte_db.pdb" /debug /machine:I386 /out:"Debug/updte_db.exe" /pdbtype:sept 
+.\Debug\updte_db.obj
+\meriden\MeridenUtils\ck_utils\Debug\ck_utils.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\Graham\LOCALS~1\Temp\RSP1AD.tmp"
+<h3>Output Window</h3>
+Compiling...
+updte_db.c
+d:\meriden\meridenutils\updte_db\updte_db.c(37) : warning C4133: 'function' : incompatible types - from 'struct _iobuf *' to 'struct part_info *'
+d:\meriden\meridenutils\updte_db\updte_db.c(81) : warning C4047: 'function' : 'int *' differs in levels of indirection from 'int '
+d:\meriden\meridenutils\updte_db\updte_db.c(81) : warning C4024: 'get_part_number_mod' : different types for formal and actual parameter 3
+d:\meriden\meridenutils\updte_db\updte_db.c(82) : warning C4020: 'get_part_number_mod' : too many actual parameters
+d:\meriden\meridenutils\updte_db\updte_db.c(97) : warning C4700: local variable 'new_ptr' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+updte_db.exe - 0 error(s), 5 warning(s)
+</pre>
+</body>
+</html>

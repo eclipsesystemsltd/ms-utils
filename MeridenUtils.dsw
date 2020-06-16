@@ -1,0 +1,518 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "ad_delim"=.\ad_delim\ad_delim.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "add_data"=.\add_data\add_data.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "atoi_prt"=.\atoi_prt\atoi_prt.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "chk_alph"=.\chk_alph\chk_alph.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "chk_assy"=.\chk_assy\chk_assy.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "chk_db"=.\chk_db\chk_db.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "chk_file"=.\chk_file\chk_file.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ck_title"=.\ck_title\ck_title.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ck_utils"=.\ck_utils\ck_utils.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ck_vassy"=.\ck_vassy\ck_vassy.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "cmp_db"=.\cmp_db\cmp_db.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "cmp_desc"=.\cmp_desc\cmp_desc.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "combine"=.\combine\combine.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "db_recrd"=.\db_recrd\db_recrd.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "exprt_db"=.\exprt_db\exprt_db.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "get_mods"=.\get_mods\get_mods.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "itoa_prt"=.\itoa_prt\itoa_prt.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "lst_assy"=.\lst_assy\lst_assy.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "mk_dbase"=.\mk_dbase\mk_dbase.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "models"=.\models\models.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "mrge_all"=.\mrge_all\mrge_all.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "mrge_db"=.\mrge_db\mrge_db.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "mrk_pres"=.\mrk_pres\mrk_pres.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "one_desc"=.\one_desc\one_desc.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "order_db"=.\order_db\order_db.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "pp_scan"=.\pp_scan\pp_scan.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ppx_scan"=.\ppx_scan\ppx_scan.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ppy_scan"=.\ppy_scan\ppy_scan.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "prn_mrge"=.\prn_mrge\prn_mrge.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "prn_part"=.\prn_part\prn_part.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "rd_dbase"=.\rd_dbase\rd_dbase.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "scan_list"=.\scan_list\scan_list.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "scan_lst_2"=.\scan_lst_2\scan_lst_2.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "updte_db"=.\updte_db\updte_db.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ck_utils
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

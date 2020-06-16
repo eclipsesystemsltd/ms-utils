@@ -1,0 +1,113 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: utils - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Graham\LOCALS~1\Temp\RSP234.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/utils.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\meriden\MeridenUtils\utils\utils.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Graham\LOCALS~1\Temp\RSP234.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\utils.lib"  .\Debug\utils.obj "
+<h3>Output Window</h3>
+Compiling...
+utils.c
+d:\meriden\meridenutils\ck_utils\ck_data.h(4) : error C2079: 'directive_list' uses undefined struct 'directive_list'
+d:\meriden\meridenutils\ck_utils\ck_data.h(4) : error C2078: too many initializers
+d:\meriden\meridenutils\ck_utils\ck_data.h(4) : error C2065: 'manufacturer' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_data.h(5) : error C2065: 'major_model' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_data.h(6) : error C2065: 'minor_model' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_data.h(7) : error C2065: 'year' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_data.h(8) : error C2065: 'page' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_data.h(9) : error C2065: 'title' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_data.h(10) : error C2065: 'variant_start' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_data.h(11) : error C2065: 'variant' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_data.h(12) : error C2065: 'variant_end' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_data.h(13) : error C2065: 'variant_quantity' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_data.h(14) : error C2065: 'variant_quantity_end' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_data.h(15) : error C2065: 'variant_assembly_start' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_data.h(16) : error C2065: 'variant_assembly' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_data.h(17) : error C2065: 'in_assembly' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_data.h(18) : error C2065: 'common_assembly' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_data.h(19) : error C2065: 'variant_assembly_end' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_data.h(20) : error C2065: 'variant_one_of_set' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_data.h(21) : error C2065: 'end_variant_set' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_data.h(22) : error C2065: 'publication_part_no' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_data.h(23) : error C2065: 'engine_number' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_data.h(25) : error C2065: 'end' : undeclared identifier
+d:\meriden\meridenutils\ck_utils\ck_types.h(29) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(29) : error C2371: 'manufacturer' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(29) : error C2086: 'manufacturer' : redefinition
+d:\meriden\meridenutils\ck_utils\ck_types.h(30) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(30) : error C2371: 'major_model' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(30) : error C2086: 'major_model' : redefinition
+d:\meriden\meridenutils\ck_utils\ck_types.h(31) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(31) : error C2371: 'minor_model' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(31) : error C2086: 'minor_model' : redefinition
+d:\meriden\meridenutils\ck_utils\ck_types.h(32) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(32) : error C2371: 'year' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(32) : error C2086: 'year' : redefinition
+d:\meriden\meridenutils\ck_utils\ck_types.h(33) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(33) : error C2371: 'page' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(33) : error C2086: 'page' : redefinition
+d:\meriden\meridenutils\ck_utils\ck_types.h(34) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(34) : error C2371: 'title' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(34) : error C2086: 'title' : redefinition
+d:\meriden\meridenutils\ck_utils\ck_types.h(35) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(35) : error C2371: 'publication_part_no' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(35) : error C2086: 'publication_part_no' : redefinition
+d:\meriden\meridenutils\ck_utils\ck_types.h(36) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(36) : error C2371: 'engine_number' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(36) : error C2086: 'engine_number' : redefinition
+d:\meriden\meridenutils\ck_utils\ck_types.h(37) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(37) : error C2371: 'variant_start' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(37) : error C2086: 'variant_start' : redefinition
+d:\meriden\meridenutils\ck_utils\ck_types.h(38) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(38) : error C2371: 'variant' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(38) : error C2086: 'variant' : redefinition
+d:\meriden\meridenutils\ck_utils\ck_types.h(39) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(39) : error C2371: 'variant_end' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(39) : error C2086: 'variant_end' : redefinition
+d:\meriden\meridenutils\ck_utils\ck_types.h(40) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(40) : error C2371: 'variant_quantity' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(40) : error C2086: 'variant_quantity' : redefinition
+d:\meriden\meridenutils\ck_utils\ck_types.h(41) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(41) : error C2371: 'variant_quantity_end' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(41) : error C2086: 'variant_quantity_end' : redefinition
+d:\meriden\meridenutils\ck_utils\ck_types.h(42) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(42) : error C2371: 'variant_assembly_start' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(42) : error C2086: 'variant_assembly_start' : redefinition
+d:\meriden\meridenutils\ck_utils\ck_types.h(43) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(43) : error C2371: 'variant_assembly' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(43) : error C2086: 'variant_assembly' : redefinition
+d:\meriden\meridenutils\ck_utils\ck_types.h(44) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(44) : error C2371: 'in_assembly' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(44) : error C2086: 'in_assembly' : redefinition
+d:\meriden\meridenutils\ck_utils\ck_types.h(45) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(45) : error C2371: 'common_assembly' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(45) : error C2086: 'common_assembly' : redefinition
+d:\meriden\meridenutils\ck_utils\ck_types.h(46) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(46) : error C2371: 'variant_assembly_end' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(46) : error C2086: 'variant_assembly_end' : redefinition
+d:\meriden\meridenutils\ck_utils\ck_types.h(47) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(47) : error C2371: 'variant_one_of_set' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(47) : error C2086: 'variant_one_of_set' : redefinition
+d:\meriden\meridenutils\ck_utils\ck_types.h(48) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(48) : error C2371: 'end_variant_set' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(48) : error C2086: 'end_variant_set' : redefinition
+d:\meriden\meridenutils\ck_utils\ck_types.h(49) : warning C4142: benign redefinition of type
+d:\meriden\meridenutils\ck_utils\ck_types.h(49) : error C2371: 'end' : redefinition; different basic types
+d:\meriden\meridenutils\ck_utils\ck_types.h(49) : error C2086: 'end' : redefinition
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+utils.lib - 65 error(s), 21 warning(s)
+</pre>
+</body>
+</html>

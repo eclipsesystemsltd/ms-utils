@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mrge_all - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Graham\LOCALS~1\Temp\RSP10F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/mrge_all.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\meriden\MeridenUtils\mrge_all\mrge_all.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Graham\LOCALS~1\Temp\RSP10F.tmp" 
+Creating temporary file "C:\DOCUME~1\Graham\LOCALS~1\Temp\RSP110.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/mrge_all.pdb" /debug /machine:I386 /out:"Debug/mrge_all.exe" /pdbtype:sept 
+.\Debug\mrge_all.obj
+\meriden\MeridenUtils\ck_utils\Debug\ck_utils.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\Graham\LOCALS~1\Temp\RSP110.tmp"
+<h3>Output Window</h3>
+Compiling...
+mrge_all.c
+d:\meriden\meridenutils\mrge_all\mrge_all.c(363) : warning C4048: different array subscripts : 'char (*)[10]' and 'char [5][20]'
+d:\meriden\meridenutils\mrge_all\mrge_all.c(363) : warning C4024: 'determine_directive_state' : different types for formal and actual parameter 4
+d:\meriden\meridenutils\mrge_all\mrge_all.c(469) : warning C4047: 'function' : 'char (*)[100]' differs in levels of indirection from 'char [101]'
+d:\meriden\meridenutils\mrge_all\mrge_all.c(469) : warning C4024: 'determine_directive_state' : different types for formal and actual parameter 1
+d:\meriden\meridenutils\mrge_all\mrge_all.c(472) : warning C4048: different array subscripts : 'char (*)[10]' and 'char [5][20]'
+d:\meriden\meridenutils\mrge_all\mrge_all.c(472) : warning C4024: 'determine_directive_state' : different types for formal and actual parameter 4
+d:\meriden\meridenutils\mrge_all\mrge_all.c(519) : warning C4048: different array subscripts : 'char (*)[10]' and 'char [5][20]'
+d:\meriden\meridenutils\mrge_all\mrge_all.c(519) : warning C4024: 'compare_source_and_searched_state' : different types for formal and actual parameter 3
+d:\meriden\meridenutils\mrge_all\mrge_all.c(520) : warning C4048: different array subscripts : 'char (*)[10]' and 'char [5][20]'
+d:\meriden\meridenutils\mrge_all\mrge_all.c(520) : warning C4024: 'compare_source_and_searched_state' : different types for formal and actual parameter 4
+d:\meriden\meridenutils\mrge_all\mrge_all.c(551) : warning C4048: different array subscripts : 'char (*)[10]' and 'char [5][20]'
+d:\meriden\meridenutils\mrge_all\mrge_all.c(551) : warning C4024: 'update_assembly_status' : different types for formal and actual parameter 4
+d:\meriden\meridenutils\mrge_all\mrge_all.c(565) : warning C4048: different array subscripts : 'char (*)[10]' and 'char [5][20]'
+d:\meriden\meridenutils\mrge_all\mrge_all.c(565) : warning C4024: 'update_assembly_status' : different types for formal and actual parameter 4
+Linking...
+
+
+
+<h3>Results</h3>
+mrge_all.exe - 0 error(s), 14 warning(s)
+</pre>
+</body>
+</html>
